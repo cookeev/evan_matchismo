@@ -9,10 +9,9 @@
 #import "PlayingCardDeck.h"
 #import "PlayingCard.h"
 
-@implementation PlayingCardDeck
+@implementation PlayingCardDeck : NSObject
 
-- (instancetype)init
-{
+- (instancetype)init {
     self = [super init];
     
     if (self) {
@@ -24,5 +23,6 @@
             }
         }
     }
+    return self;
 }
 @end

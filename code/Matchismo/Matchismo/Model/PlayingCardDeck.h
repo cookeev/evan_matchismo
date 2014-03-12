@@ -8,6 +8,7 @@
 
 #import "Card.h"
 
-@interface PlayingCardDeck :
+@interface PlayingCardDeck : NSObject
+
 @end
 
